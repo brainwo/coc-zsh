@@ -4,7 +4,7 @@ let s:complete_script =  fnamemodify(s:sourced_filename, ':h:h:h:h') . '/bin/cap
 
 function! coc#source#zsh#init() abort
   return {
-        \ 'filetypes': ['zsh'],
+        \ 'filetypes': ['zsh', 'sh'],
         \ }
 endfunction
 
